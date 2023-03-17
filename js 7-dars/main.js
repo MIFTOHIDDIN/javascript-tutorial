@@ -39,31 +39,51 @@
 // 0011=3
 // 0101=4
 // =======
-console.log(Math.max(1,23,56,23)-Math.min(11,234,45,23,12));
+// console.log(Math.max(1,23,56,23)-Math.min(11,234,45,23,12));
 
-// =========
-function random(min,max){
-return Math.floor(Math.random()*(max-min)+min)
-}
-console.log(random(1,50));
-// ========
+// // =========
+// function random(min,max){
+// return Math.floor(Math.random()*(max-min)+min)
+// }
+// console.log(random(1,50));
+// // ========
 
-function binary(num) {
-    let b = num.toString(2)
-    let nol = 0
-    let bir = 0
-    for (let i = 0; i <= b.length; i++) {
-        if (b.charAt(i) === "1") {
-            bir++
-        }else if(b.charAt(i)==="0"){
-            nol++
-        }
+// function binary(num) {
+//     let b = num.toString(2)
+//     let nol = 0
+//     let bir = 0
+//     for (let i = 0; i <= b.length; i++) {
+//         if (b.charAt(i) === "1") {
+//             bir++
+//         }else if(b.charAt(i)==="0"){
+//             nol++
+//         }
        
-    }
+//     }
 
-    console.log(`${num} ni binarysi ${b}`);
-    console.log(`${bir} ta- 1 raqami bor`);
-    console.log(`${nol} ta- 0 raqami bor`);
-}
-binary(50)
+//     console.log(`${num} ni binarysi ${b}`);
+//     console.log(`${bir} ta- 1 raqami bor`);
+//     console.log(`${nol} ta- 0 raqami bor`);
+// }
+// binary(50)
+// =====
+// let calculator= {
+//     a:2,
+//     b:10,
+//     read(){
+      
+//     },
+//     sum(){
+//         return this.a+this.b
+//     },
+//     mul(){
+//       return this.a*this.b
+//     }
+
+// }
+// calculator.read()
+// console.log(calculator.sum());
+// console.log(calculator.mul());
+
+
 
