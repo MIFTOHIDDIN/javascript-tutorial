@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    color: red;
+}
+
+.module {
+    font-style: italic;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border: 5px solid red;
+}
